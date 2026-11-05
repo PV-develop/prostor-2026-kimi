@@ -97,10 +97,8 @@ button {
   outline-offset: 2px;
 }
 
-/* У кнопок видимый keyboard-фокус — в цвете текста кнопки (дизайн без отдельного кольца) */
-.btn:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 3px;
+.btn:focus {
+  outline: none;
 }
 
 /* Общая обёртка страницы */

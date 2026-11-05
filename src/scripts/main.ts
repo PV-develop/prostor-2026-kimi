@@ -235,7 +235,7 @@ function initHeaderFx() {
   const logoA = hdr?.querySelector<HTMLElement>('[data-logo]') ?? null;
   const conn = hdr?.querySelector<HTMLElement>('[data-hconn]') ?? null;
 
-  const X = 22;
+  const X = window.innerWidth <= 768 ? 10 : 22;
   const RED = '#FA001E';
   const TR = 'rgba(128,128,128,.42)';
   const EZ = 'cubic-bezier(.7,0,.2,1)';
